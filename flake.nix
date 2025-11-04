@@ -25,8 +25,7 @@
             cargoLock = {
               lockFile = ./Cargo.lock;
               outputHashes = {
-                "anyrun-interface-25.9.3" = "sha256-oo6R68kIGPo494p5NJ9s95efVJ+Wh+av7FczhvVCREo=";
-                "anyrun-plugin-25.9.3" = "sha256-oo6R68kIGPo494p5NJ9s95efVJ+Wh+av7FczhvVCREo=";
+                "anyrun-interface-25.9.3" = "sha256-ynLb+3Y+sbrNc2HD1VTRNBj2GKm44CGENTJZwvn0Xt0=";
               };
             };
 
