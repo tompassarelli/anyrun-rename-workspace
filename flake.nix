@@ -31,8 +31,10 @@
             };
 
             installPhase = ''
+              runHook preInstall
               mkdir -p $out/lib
-              cp target/release/libanyrun_rename_workspace.so $out/lib/
+              cp target/*/release/libanyrun_rename_workspace.so $out/lib/
+              runHook postInstall
             '';
           };
         }
