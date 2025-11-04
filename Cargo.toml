@@ -1,0 +1,11 @@
+[package]
+name = "anyrun-rename-workspace"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+abi_stable = "0.11.1"
+anyrun-plugin = { git = "https://github.com/anyrun-org/anyrun" }
